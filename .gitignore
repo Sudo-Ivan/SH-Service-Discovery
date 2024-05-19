@@ -1,0 +1,5 @@
+services.db
+.env
+config.yaml
+__pycache__
+venv
