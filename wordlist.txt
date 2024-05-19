@@ -1,0 +1,56 @@
+TubeArchivist
+Dashboard
+Sh Dashboard
+Exalidraw
+Cosmos
+Tube Archivist
+Audiobookshelf
+Stump
+Nextcloud
+Plex
+Sonarr
+Radarr
+Jellyfin
+Home Assistant
+GitLab
+Grafana
+Kibana
+Elasticsearch
+MongoDB
+MySQL
+PostgreSQL
+Node-RED
+Docker
+Portainer
+VPN
+Adminer
+phpMyAdmin
+Webmin
+Pi-hole
+AdGuard Home
+Tautulli
+Organizr
+Bookstack
+Gitea
+PhotoPrism
+FreshRSS
+LazyLibrarian
+Koel
+Resilio Sync
+Seafile
+Pydio
+Calibre
+NewsBlur
+Fathom
+Matomo
+Cryptpad
+ONLYOFFICE
+Rocket.Chat
+Mattermost
+OpenVPN
+OneDev
+SeaweedFS
+Seaweed
+Minecraft
+Navidrome
+Mealie
