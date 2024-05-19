@@ -2,6 +2,8 @@
 
 ## Self-Hosted Service Discovery and Service Name Matching using a wordlist.
 
+I built this for my custom dashboard.
+
 Q: Why a wordlist?
 
 A: I am not an HTML magician, and using a wordlist is simple in the long run (in my mind).
