@@ -19,6 +19,7 @@ def scan_service(host: str, port: int, wordlist, service_data):
     except requests.exceptions.RequestException:
         return None
 
+# remove wordlist and use service_data only
 @router.get("/detect")
 def detect_services():
     config = load_config()
@@ -29,7 +30,6 @@ def detect_services():
     if "ip_ranges" in config and "ports" in config:
         for ip_range in config["ip_ranges"]:
             if '-' in ip_range:
-                # Assuming IPv4, split into components for start and end of range
                 start_ip_str, end_ip_str = ip_range.split('-', 1)
                 start_ip_int = int(ipaddress.IPv4Address(start_ip_str))
                 end_ip_int = int(ipaddress.IPv4Address(end_ip_str))

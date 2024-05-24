@@ -7,5 +7,4 @@ router = APIRouter()
 @router.get("/services")
 def fetch_services():
     services_raw = get_services_from_db()
-    # Convert raw services into Pydantic models or similar structure for response
     return {"services": services_raw}
