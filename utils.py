@@ -2,6 +2,7 @@ import re
 from bs4 import BeautifulSoup
 import csv
 
+# remove and use service_data.csv
 def get_wordlist():
     with open("data/wordlist.txt", "r") as file:
         return file.read().splitlines()
