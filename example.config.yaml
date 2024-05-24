@@ -16,3 +16,7 @@ ports:
 domains:
   - example.com
   - example
+
+cors_origins:
+  - "127.0.0.1"
+  - "localhost"

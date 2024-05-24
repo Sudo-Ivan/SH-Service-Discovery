@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  surrealdb:
+    image: surrealdb/surrealdb:latest
+    command: start
+    ports:
+      - "8000:8000"
+    restart: unless-stopped
+
+  sh-service-discovery:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - .:/app
+    ports:
+      - "8080:8000"
+    depends_on:
+      - surrealdb
+    restart: unless-stopped

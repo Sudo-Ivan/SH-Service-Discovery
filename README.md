@@ -1,13 +1,7 @@
 # SH-Service-Discovery
 
-## Self-Hosted Service Discovery and Service Name Matching using a wordlist.
+## Self-Hosted Service Discovery for overlay and mesh networks.
 
-I built this for my custom dashboard.
+I built this for my custom dashboard for a overlay network with my friends. Define IP, Ports, Domains, CORS rules in config.yaml.
 
-Q: Why a wordlist?
-
-A: I am not an HTML magician, and using a wordlist is simple in the long run (in my mind).
-
-Define your IP, Ports, and Domains in config.yaml. Supports tailscale and zerotier as long as you run the API on a machine with it installed.
-
-Feel free to fork and change the logic.
+Feel free to fork, change the logic or submit a PR.
