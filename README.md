@@ -1,7 +1,7 @@
 # SH-Service-Discovery
 
-## Self-Hosted Service Discovery for overlay and mesh networks.
+## Self-Hosted Automated Service Discovery.
 
-I built this for my custom dashboard for a overlay network with my friends. Define IP, Ports, Domains, CORS rules in config.yaml.
+I built this for my custom dashboard for a private overlay network with my friends. It works on all networks (should) just define IP, ports, domains, CORS rules in config.yaml.
 
-Feel free to fork, change the logic or submit a PR.
+This is still heavily work-in-progress. Feel free to fork, change the logic or submit a PR to help.
